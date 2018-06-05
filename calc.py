@@ -1,3 +1,4 @@
+print("Welcome to Noob-Age-Calculator 1.0!")
 name  = input("Enter your name: ")
 age = input("Enter your age: ")
 seconds = int(age) * 365 * 24 * 60 * 60
