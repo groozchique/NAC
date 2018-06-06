@@ -1,4 +1,4 @@
-print('Welcome to Noob-Age-Calculator 1.0!')
+print('Welcome to Noob-Age-Calculator 1.1!')
 name  = input('Enter your name: ')
 age = int(input("Enter your age: '))
 if int(age) < 1 or int(age) > 100:
