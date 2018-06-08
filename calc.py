@@ -1,9 +1,9 @@
 print('Welcome to Noob-Age-Calculator 1.1!')
 name  = input('Enter your name: ')
 age = int(input("Enter your age: '))
-if int(age) < 1 or int(age) > 100:
+while(int(age) < 1) or (int(age) > 100):
     print('You are not human!')
-    quit()
+    age = int(input('Please, try again. Enter your age: '))
 seconds = int(age) * 365 * 24 * 60 * 60
 minutes = int(age) * 365 * 24 * 60
 hours = int(age) * 365 * 24
