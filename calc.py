@@ -1,19 +1,16 @@
-print('Welcome to Noob-Age-Calculator 1.1!')
-name  = input('Enter your name: ')
-age = int(input("Enter your age: '))
-while(int(age) < 1) or (int(age) > 100):
-    print('You are not human!')
+print('Welcome to N00b-Age-Calculator 1.1!')
+print('created by groozchique')
+age = int(input('Hello! Please, enter your age: '))
+while(int(age) < 1) or (int(age) > 110):
+    print('Are you really human?')
     age = int(input('Please, try again. Enter your age: '))
 seconds = int(age) * 365 * 24 * 60 * 60
 minutes = int(age) * 365 * 24 * 60
 hours = int(age) * 365 * 24
-weeks  = int(age) * 12 * 4
+weeks = int(age) * 12 * 4
 months = int(age) * 12
-print('Hi, ' + str(name) + ', there is your results:')
-print('Your age in seconds: ' + str(seconds) + " seconds')
-print('Your age in minutes: ' + str(minutes) + " minutes')
-print('Your age in hours: ' + str(hours) + " hours')
-print('Your age in weeks: ' + str(weeks) + " weeks')
-print('Your age in months: '+ str(months) + ' months')
-print('And you have to suffer in this world ' + str(100 - int(age)) + ' years!')
+ea = str(80 - int(age))
+print('Ok, here is your results:')
+print('You survived in this cruel world for ' + str(seconds) + ' seconds' ', ' + str(minutes) + ' minutes' ', ' + str(hours) + ' hours' ', ' + str(weeks) + ' weeks' ' or ' + str(months) + ' months')
+print('And you have to suffer in this world for, approximately, ' + str(ea) + ' years!')
 f = input('Press any button to close the window.')
